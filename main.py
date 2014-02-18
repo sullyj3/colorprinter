@@ -1,5 +1,6 @@
 import sys
 debug=True
+
 def debug_print(x):
     if debug==True:
         print("DEBUG PRINTER")
@@ -28,7 +29,6 @@ def print_colors(collist):
     pass
 
 input_file=open(arg,'r')
-
 get_colors(input_file)
-#debug_print(color_list)
 input_file.close()
+
